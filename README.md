@@ -1,13 +1,5 @@
-# Gitlab Sample C++ Project
+# Gitlab Continous Integration Sample C++ Project
 
-## Documentation
+This project was forked from OlinData, so thanks to them for having a nice youtube video and actually writing the sample code. 
 
-Simply clone this repository in your Gitlab instance, and make sure to have a Gitlab runner defined (preferably with a docker-based executor) and you'll see your gitlab ci builds working!
-
-## Need Help?
-
-Need help?  Feel free to contact Farley _at_ OlinData dot com
-
-or
-
-http://olindata.com/contact
+This is a quick C++ project to demonstrate how to use Continuous Integration on GitLab. You clone this repository locally (or import it on GitLab), and when you push it to GitLab, the .gitlab-ci.yml file will trigger a runner to run the verify.sh test.

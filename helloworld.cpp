@@ -1,9 +1,9 @@
-// 'Hello World!' program 
- 
+// A basic Hello World C++ examples. Returns 0, and prints "Hello World!".
 #include <iostream>
- 
+using namespace std;
+
 int main()
-{
-  std::cout << "Hello World!" << std::endl;
-  return 0;
-}
+	{
+	cout << "Hello World!" << endl;
+	return 0;
+	}
