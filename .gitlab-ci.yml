@@ -1,6 +1,7 @@
 # Specify the docker image to use (only used if using docker runners)
 # See: http://doc.gitlab.com/ee/ci/docker/using_docker_images.html
 image: ubuntu:14.04
+  
 
 services: 
   - ubuntu:14.04-dind
